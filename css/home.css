@@ -1,0 +1,111 @@
+@charset "utf-8";
+.box{
+	background:url(images/login-form.png) no-repeat center top;
+	width:430px;
+	height:278px;
+	position:absolute;
+	display:none;
+}
+.box-inner{
+	padding:17px;
+}
+.box-header{
+	padding-top:18px;
+	height:50px;
+}
+.box-close{
+	float:right;
+	text-align:right;
+	margin-top:3px;
+	margin-right:8px;
+}
+.box-close a{
+	text-decoration:none;
+}
+.box-close img{
+	height:16px;
+	width:16px;
+	border:none;
+	background:url(images/button_delete.png) no-repeat center center;
+}
+.box-header h1{
+	margin:0px 0px 0px 16px;
+	font-size:16px;
+	color:#FFFFFF;
+}
+.main{
+	padding:5px 0px;
+	margin-bottom:10px;
+}
+.form-login{
+	padding:0px 16px;
+}
+form{
+	margin:0px;
+	padding:0px;
+}
+input, select, button, textarea{
+	margin:0px;
+}
+.login-table td{
+	padding:3px 0px;
+}
+.form-label{
+	float:left;
+	width:100px;
+	line-height:1.6;
+	padding:4px 0px;
+}
+.form-input, .login-button-area{
+	padding:3px 0px;
+	margin-left:102px;
+}
+
+.login-table td a, .login-button-area a{
+	color:#048FDB;
+	text-decoration:none;
+}
+.input-login{
+	width:240px;
+	padding:4px;
+	background-color:#FFFFFF;
+	border:1px solid #EEEEEE;
+	box-shadow:0px 0px 2px #EEEEEE;
+	border-radius:2px;
+	color:#555555;
+}
+.button-login, .backlink a{
+	font-size:13px;
+	padding:4px 14px;
+	color:#FFFFFF;
+	border:none;
+	border-radius:3px;
+	background-color:#6CCAFD;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#6CCAFD),to(#1DACFA));
+	background-image:-webkit-linear-gradient(#6CCAFD,#1DACFA);
+	background-image:-moz-linear-gradient(#6CCAFD,#1DACFA);
+	background-image:-ms-linear-gradient(#6CCAFD,#1DACFA);
+	background-image:-o-linear-gradient(#6CCAFD,#1DACFA);
+	background-image:linear-gradient(#6CCAFD,#1DACFA);
+}
+.backlink{
+	padding:16px 0px;
+}
+.backlink a{
+	padding:5px 20px;
+	text-decoration:none;
+}
+.slideshow{
+	padding:20px 0px 0px 0px;
+}
+.slideshow-header{
+	width:980px;
+	height:323px;
+	margin:0px auto;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	border:5px solid #F5F5F5;
+}
+.slideshow-header > img{
+	border-radius:5px;
+}
